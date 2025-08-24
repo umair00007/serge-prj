@@ -25,7 +25,7 @@ const testimonials = [
     logo: "/assets/images/highsnobiety.svg",
   },
   {
-    text: `"Serge DeNimes is the trend-centric brand that’s revolutionising the landscape of affordable jewellry"`,
+    text: `"Serge DeNimes is the trend-centric brand that’s revolutionising the landscape of affordable jewellery"`,
     author: "GQ",
     logo: "/assets/images/gq.svg",
   },
@@ -48,43 +48,48 @@ export default function OurBrandsCarousel() {
   };
 
   return (
-    <section className="w-full bg-gray-100 py-12 px-6 flex flex-col items-center text-center">
-      <div className="max-w-2xl relative">
+    <section className="w-full bg-gray-100 py-8 px-4 flex flex-col items-center text-center sm:py-12 sm:px-6">
+      <div className="max-w-full sm:max-w-2xl relative">
+        {/* Prev Button */}
         <button
           onClick={prevSlide}
-          className="absolute left-[-3rem] top-1/2 -translate-y-1/2 p-2 rounded-full hover:bg-gray-200"
+          className="absolute left-[-1rem] sm:left-[-3rem] top-1/2 -translate-y-1/2 p-1 sm:p-2 rounded-full hover:bg-gray-200"
         >
-          <ChevronLeft className="w-10 h-10 stroke-1 font-semibold text-gray-400" />
+          <ChevronLeft className="w-6 h-6 sm:w-10 sm:h-10 stroke-1 font-semibold text-gray-400" />
         </button>
 
-        <div className="w-[80dvh] px-8 font-serge font-semibold transition-all duration-800">
-          <p className="text-2xl italic text-gray-800">
+        {/* Main Text */}
+        <div className="w-full sm:w-[80vh] px-2 sm:px-8 font-serge font-semibold transition-all duration-800">
+          <p className="text-lg sm:text-2xl italic text-gray-800">
             {testimonials[activeIndex].text}
           </p>
-          <p className="mt-4 text-sm font-medium text-gray-600">
+          <p className="mt-3 text-xs sm:text-sm font-medium text-gray-600">
             {testimonials[activeIndex].author}
           </p>
         </div>
 
+        {/* Next Button */}
         <button
           onClick={nextSlide}
-          className="absolute right-[-3rem] top-1/2 -translate-y-1/2 p-2 rounded-full hover:bg-gray-200"
+          className="absolute right-[-1rem] sm:right-[-3rem] top-1/2 -translate-y-1/2 p-1 sm:p-2 rounded-full hover:bg-gray-200"
         >
-          <ChevronRight className="w-10 h-10 stroke-1 font-semibold text-gray-400" />
+          <ChevronRight className="w-6 h-6 sm:w-10 sm:h-10 stroke-1 font-semibold text-gray-400" />
         </button>
       </div>
-      <div className="mt-2 flex gap-20 items-center justify-center opacity-70 w-[70vh] h-[200px]">
+
+      {/* Logo Strip */}
+      <div className="mt-4 flex gap-6 sm:gap-20 items-center justify-center opacity-70 w-full sm:w-[70vh] min-h-[100px] sm:h-[200px] overflow-x-auto sm:overflow-visible">
         {[-1, 0, 1].map((offset) => {
           const index =
             (activeIndex + offset + testimonials.length) % testimonials.length;
           const item = testimonials[index];
 
           return (
-            <div className="w-[200px] px-" key={index}>
+            <div className="flex-shrink-0 w-[120px] sm:w-[200px]" key={index}>
               <img
                 src={item.logo}
                 alt={item.author}
-                className={`h-[40px] transition-all duration-800 ${
+                className={`h-[30px] sm:h-[40px] mx-auto transition-all duration-800 ${
                   offset === 0
                     ? "opacity-100 grayscale-0 scale-110"
                     : "opacity-40 grayscale"
