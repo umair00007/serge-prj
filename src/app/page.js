@@ -36,8 +36,8 @@ const page = () => {
       <OurBrandsCarousel />
       <MarksSection />
       <Footer />
-      <div className="fixed bottom-0 right-4">
-        <button className="bg-black text-white p-2 px-3 font-semibold shadow-lg">
+      <div className="fixed bottom-0 right-4 ">
+        <button className="bg-black text-white py-1 px-4 text-lg  shadow-lg rounded-t-lg">
           Loyalty Scheme
         </button>
       </div>
