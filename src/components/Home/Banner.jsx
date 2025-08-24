@@ -5,7 +5,7 @@ import banner from "../../../public/assets/images/Banner.jpg";
 export default function Banner() {
   return (
     <section className="relative w-full h-screen">
-      {/* Desktop Image */}
+      {/* Desktop */}
       <div className="hidden md:block w-full h-full">
         <Image
           src={banner}
