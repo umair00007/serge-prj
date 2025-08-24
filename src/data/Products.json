@@ -1,0 +1,232 @@
+{
+  "modern": [
+    {
+      "title": "Silver Wild West Ring",
+      "href": "/products/silver-wild-west-ring",
+      "images": [
+        "/assets/images/Silver-Wild-West-Product-Shot-4-Grey.webp",
+        "/assets/images/Silver-Wild-West-Product-Shot-Grey.webp"
+      ],
+      "price": "Rs. 7,930.89"
+    },
+    {
+      "title": "Silver Western Ring",
+      "href": "/products/silver-western-ring",
+      "images": [
+        "/assets/images/Silver-Western-Ring-Product-Shot-Grey_a65d463f-0aa3-4618-9950-781af83de618.webp",
+        "/assets/images/Silver-Western-Ring-Product-Shot-3-Grey.webp"
+      ],
+      "price": "Rs. 8,935.65"
+    },
+    {
+      "title": "Silver Moonlight Ring",
+      "href": "/products/silver-moonlight-ring",
+      "images": [
+        "/assets/images/Product_3_2.webp",
+        "/assets/images/Product_3_1.webp"
+      ],
+      "price": "Rs. 7,930.89"
+    },
+    {
+      "title": "Gold Moonlight Ring",
+      "href": "/products/gold-moonlight-ring",
+      "images": [
+        "/assets/images/Product_4_2.webp",
+        "/assets/images/Product_4_1.webp"
+      ],
+      "price": "Rs. 8,935.65"
+    },
+    {
+      "title": "Silver Bull Ring",
+      "href": "/products/silver-bull-ring",
+      "images": [
+        "/assets/images/Product_5_2.webp",
+        "/assets/images/Product_5_1.webp"
+      ],
+      "price": "Rs. 7,930.89"
+    },
+    {
+      "title": "Silver Sheriff Ring",
+      "href": "/products/silver-sheriff-ring",
+      "images": [
+        "/assets/images/Product_6_2.webp",
+        "/assets/images/Product_6_1.webp"
+      ],
+      "price": "Rs. 7,930.89"
+    },
+    {
+      "title": "Silver Spur Ring",
+      "href": "/products/silver-spur-ring",
+      "images": [
+        "/assets/images/Product_7_2.webp",
+        "/assets/images/Product_7_1.webp"
+      ],
+      "price": "Rs. 8,935.65"
+    },
+    {
+      "title": "Silver Rodeo Ring",
+      "href": "/products/silver-rodeo-ring",
+      "images": [
+        "/assets/images/Product_8_2.webp",
+        "/assets/images/Product_8_1.webp"
+      ],
+      "price": "Rs. 10,541.59"
+    }
+  ],
+  "core": [
+    {
+      "title": "Silver Skeleton Hands Ring",
+      "href": "/products/silver-wild-west-ring",
+      "images": [
+        "/assets/images/ProductCore_1_2.webp",
+        "/assets/images/ProductCore_1_1.webp"
+      ],
+      "price": "Rs. 11,048.36"
+    },
+    {
+      "title": "Silver Zeus Ring",
+      "href": "/products/silver-western-ring",
+      "images": [
+        "/assets/images/ProductCore_2_2.webp",
+        "/assets/images/ProductCore_2_1.webp"
+      ],
+      "price": "Rs. 7,934.04"
+    },
+    {
+      "title": "Silver Envy Signet Ring",
+      "href": "/products/silver-moonlight-ring",
+      "images": [
+        "/assets/images/ProductCore_3_2.webp",
+        "/assets/images/ProductCore _3_1.webp"
+      ],
+      "price": "Rs. 7,934.04"
+    },
+    {
+      "title": "Silver Patriot Ring",
+      "href": "/products/gold-moonlight-ring",
+      "images": [
+        "/assets/images/ProductCore_4_2.webp",
+        "/assets/images/ProductCore_4_1 .webp"
+      ],
+      "price": "Rs. 6,528.74"
+    },
+    {
+      "title": "Silver Signet Ring",
+      "href": "/products/silver-bull-ring",
+      "images": [
+        "/assets/images/ProductCore_5_2.webp",
+        "/assets/images/ProductCore_5_1 .webp"
+      ],
+      "price": "Rs. 8,536.66"
+    },
+    {
+      "title": "Gold Royal Envy Ring",
+      "href": "/products/silver-sheriff-ring",
+      "images": [
+        "/assets/images/ProductCore_6_2.webp",
+        "/assets/images/ProductCore_6_1.webp"
+      ],
+      "price": "Rs. 8,939.21"
+    },
+    {
+      "title": "Silver Kabuto Ring",
+      "href": "/products/silver-spur-ring",
+      "images": [
+        "/assets/images/ProductCore_7_2.webp",
+        "/assets/images/ProductCore_7_1.webp"
+      ],
+      "price": "Rs. 7,934.04"
+    },
+    {
+      "title": "Silver Traditional Hallmark Ring",
+      "href": "/products/silver-rodeo-ring",
+      "images": [
+        "/assets/images/ProductCore_8_2.webp",
+        "/assets/images/ProductCore_8_1.webp"
+      ],
+      "price": "Rs. 8,536.66"
+    }
+  ],
+  "perle": [
+    {
+      "title": "Gold Diamond Signet Ring",
+      "href": "/products/gold-diamond-signet-ring",
+      "tag": "perle",
+      "images": [
+        "/assets/images/Product_Perle_1_2.webp",
+        "/assets/images/Product_Perle_1_1.webp"
+      ],
+      "price": "Rs. 40,174.00"
+    },
+    {
+      "title": "Silver Diamond Signet Ring",
+      "href": "/products/silver-diamond-signet-ring",
+      "tag": "perle",
+      "images": [
+        "/assets/images/Product_Perle_2_2.webp",
+        "/assets/images/Product_Perle_2_1.webp"
+      ],
+      "price": "Rs. 36,156.96"
+    },
+    {
+      "title": "Silver Emerald Birthstone Ring",
+      "href": "/products/silver-emerald-birthstone-ring",
+      "tag": "perle",
+      "images": [
+        "/assets/images/Product_Perle_3_2.webp",
+        "/assets/images/Product_Perle_3_1.webp"
+      ],
+      "price": "Rs. 30,130.80"
+    },
+    {
+      "title": "Silver Opal Birthstone Ring",
+      "href": "/products/silver-opal-birthstone-ring",
+      "tag": "perle",
+      "images": [
+        "/assets/images/Product_Perle_4_2.webp",
+        "/assets/images/Product_Perle_4_1.webp"
+      ],
+      "price": "Rs. 25,108.60"
+    },
+    {
+      "title": "Silver Round Mother of Pearl Ring",
+      "href": "/products/silver-round-mother-of-pearl-ring",
+      "tag": "perle",
+      "images": [
+        "/assets/images/Product_Perle_5_2.webp",
+        "/assets/images/Product_Perle_5_1.webp"
+      ],
+      "price": "Rs. 31,134.76"
+    },
+    {
+      "title": "Silver Round Tigers Eye Ring",
+      "href": "/products/silver-round-tigers-eye-ring",
+      "tag": "perle",
+      "images": [
+        "/assets/images/Product_Perle_6_2.webp",
+        "/assets/images/Product_Perle_6_1.webp"
+      ],
+      "price": "Rs. 31,134.76"
+    },
+    {
+      "title": "Silver Round Malachite Ring",
+      "href": "/products/silver-round-malachite-ring",
+      "tag": "perle",
+      "images": [
+        "/assets/images/Product_Perle_7_1.webp",
+        "/assets/images/Product_Perle_6_1.webp"
+      ],
+      "price": "Rs. 31,134.76"
+    },
+    {
+      "title": "Silver Round Turquoise Ring",
+      "href": "/products/silver-round-turquoise-ring",
+      "tag": "perle",
+      "images": [
+        "/assets/images/Product_Perle_8_1.webp",
+        "/assets/images/Product_Perle_6_1.webp"
+      ],
+      "price": "Rs. 31,134.76"
+    }
+  ]
+}
