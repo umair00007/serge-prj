@@ -63,9 +63,9 @@ export default function Header() {
           </svg>
         </Link>
         {/* For large screens: show text */}
-        {/* <div className="hidden md:block uppercase font-bold text-2xl">
+        <div className="hidden md:block uppercase font-bold text-2xl">
           Serge DeNimes
-        </div> */}
+        </div>
 
         <div className="flex items-center gap-4">
           <button aria-label="Search">

@@ -32,15 +32,15 @@ const footerLinks = [
       { label: "Size Guide", href: "/pages/size-guides" },
       {
         label: "Student Discount",
-        href: "https://sergedenimes.myshopify.com/pages/student-discount",
+        href: "/pages/student-discount",
       },
       {
         label: "Help Centre",
-        href: "https://faqsergedenimes.gorgias.help/en-US",
+        href: "/pages/help-centre",
       },
       {
         label: "Track Your Order",
-        href: "https://swaptrack.co/p/sergedenimes",
+        href: "/pages/track-your-order",
       },
     ],
   },
